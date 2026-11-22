@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+dist/
+.env
+.vscode/
+.idea/
+
+# Large source and intermediate videos
+videos/warehouse.mp4
+videos/motion_output.mp4
+videos/risk_output.mp4
+videos/tracked_output.mp4
+videos/*.jpg

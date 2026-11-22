@@ -1,0 +1,4752 @@
+[
+    {
+        "frame": 2,
+        "worker_id": 1,
+        "forklift_id": 2,
+        "original_risk": "MEDIUM",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 84.93,
+                "closest_approach_time": 2.88,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 98.34,
+                "closest_approach_time": 3.58,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 116.9,
+                "closest_approach_time": 5,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 279.02,
+                "closest_approach_time": 2.44,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 279.02,
+            "closest_approach_time": 2.44,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 3,
+        "worker_id": 1,
+        "forklift_id": 2,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 55.68,
+                "closest_approach_time": 2.59,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 60.99,
+                "closest_approach_time": 3.16,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 111.65,
+                "closest_approach_time": 5,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 233.38,
+                "closest_approach_time": 2.64,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 233.38,
+            "closest_approach_time": 2.64,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 4,
+        "worker_id": 1,
+        "forklift_id": 2,
+        "original_risk": "MEDIUM",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 60.99,
+                "closest_approach_time": 4.71,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 64.21,
+                "closest_approach_time": 5,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 248.36,
+                "closest_approach_time": 5,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 203.94,
+                "closest_approach_time": 5,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 248.36,
+            "closest_approach_time": 5,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 6,
+        "worker_id": 1,
+        "forklift_id": 2,
+        "original_risk": "MEDIUM",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 20.95,
+                "closest_approach_time": 3.93,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 87.41,
+                "closest_approach_time": 5,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 166.02,
+                "closest_approach_time": 5,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 270.83,
+                "closest_approach_time": 2.33,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 270.83,
+            "closest_approach_time": 2.33,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 7,
+        "worker_id": 1,
+        "forklift_id": 2,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 69.44,
+                "closest_approach_time": 1.95,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 80.17,
+                "closest_approach_time": 2.02,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 274.57,
+                "closest_approach_time": 5,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 117.5,
+                "closest_approach_time": 1.89,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 274.57,
+            "closest_approach_time": 5,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 183,
+        "worker_id": 1,
+        "forklift_id": 82,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 78.23,
+                "closest_approach_time": 1.99,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 78.23,
+                "closest_approach_time": 1.99,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 228.3,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 78.23,
+                "closest_approach_time": 1.99,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 228.3,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 183,
+        "worker_id": 1,
+        "forklift_id": 83,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 37.61,
+                "closest_approach_time": 0.6,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 37.61,
+                "closest_approach_time": 0.6,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 74.53,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 37.61,
+                "closest_approach_time": 0.6,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 74.53,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 186,
+        "worker_id": 1,
+        "forklift_id": 82,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 55.65,
+                "closest_approach_time": 0.03,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 53.16,
+                "closest_approach_time": 0.07,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 58.22,
+                "closest_approach_time": 0.03,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 73.95,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 73.95,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 187,
+        "worker_id": 1,
+        "forklift_id": 83,
+        "original_risk": "MEDIUM",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 42.09,
+                "closest_approach_time": 3.88,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 164.56,
+                "closest_approach_time": 2.73,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 297.92,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 297.92,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 297.92,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 189,
+        "worker_id": 1,
+        "forklift_id": 82,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 54.7,
+                "closest_approach_time": 0.07,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 53.23,
+                "closest_approach_time": 0.14,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 56.65,
+                "closest_approach_time": 0.06,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 57.42,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 57.42,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 190,
+        "worker_id": 1,
+        "forklift_id": 82,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 27.22,
+                "closest_approach_time": 2.82,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 34.0,
+                "closest_approach_time": 1.46,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 56.8,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 10.06,
+                "closest_approach_time": 1.0,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 56.8,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 191,
+        "worker_id": 1,
+        "forklift_id": 82,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 10.06,
+                "closest_approach_time": 0.96,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 38.61,
+                "closest_approach_time": 0.6,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 52.74,
+                "closest_approach_time": 0.19,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 37.3,
+                "closest_approach_time": 0.27,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 52.74,
+            "closest_approach_time": 0.19,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 194,
+        "worker_id": 1,
+        "forklift_id": 83,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 35.53,
+                "closest_approach_time": 2.15,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 24.0,
+                "closest_approach_time": 3.95,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 49.31,
+                "closest_approach_time": 2.34,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 260.84,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 260.84,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 195,
+        "worker_id": 1,
+        "forklift_id": 83,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 4.42,
+                "closest_approach_time": 1.46,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 15.89,
+                "closest_approach_time": 2.32,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 14.8,
+                "closest_approach_time": 1.94,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 238.5,
+                "closest_approach_time": 0.58,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 238.5,
+            "closest_approach_time": 0.58,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 197,
+        "worker_id": 1,
+        "forklift_id": 83,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 83.22,
+                "closest_approach_time": 0.27,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 79.99,
+                "closest_approach_time": 0.54,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 86.55,
+                "closest_approach_time": 0.28,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 161.0,
+                "closest_approach_time": 0.15,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 161.0,
+            "closest_approach_time": 0.15,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 197,
+        "worker_id": 1,
+        "forklift_id": 82,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 2.99,
+                "closest_approach_time": 1.05,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 15.53,
+                "closest_approach_time": 2.38,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 14.32,
+                "closest_approach_time": 0.75,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 41.72,
+                "closest_approach_time": 0.08,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 41.72,
+            "closest_approach_time": 0.08,
+            "predicted_risk": "HIGH"
+        }
+    },
+    {
+        "frame": 255,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 64.21,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 64.21,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 64.21,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 64.21,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 64.21,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 256,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 64.73,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 64.73,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 64.73,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 39.17,
+                "closest_approach_time": 1.0,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 64.73,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 280,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 22.75,
+                "closest_approach_time": 0.35,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 19.71,
+                "closest_approach_time": 0.74,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 25.39,
+                "closest_approach_time": 0.32,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 136.46,
+                "closest_approach_time": 0.04,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 136.46,
+            "closest_approach_time": 0.04,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 287,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 82.76,
+                "closest_approach_time": 0.0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 82.76,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 82.53,
+                "closest_approach_time": 0.01,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 82.76,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 82.76,
+            "closest_approach_time": 0.0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 288,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 86.96,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 86.96,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 86.96,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 86.96,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 86.96,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 289,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 93.07,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 93.07,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 93.07,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 93.07,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 93.07,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 290,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 95.34,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 95.34,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 95.34,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 95.34,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 95.34,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 291,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 95.56,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 95.56,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 92.5,
+                "closest_approach_time": 0.48,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 95.56,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 95.56,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 296,
+        "worker_id": 104,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 76.67,
+                "closest_approach_time": 0.08,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 76.12,
+                "closest_approach_time": 0.16,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 77.23,
+                "closest_approach_time": 0.08,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 118.52,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 118.52,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 296,
+        "worker_id": 106,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 93.38,
+                "closest_approach_time": 0.07,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 88.12,
+                "closest_approach_time": 0.12,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 100.47,
+                "closest_approach_time": 0.07,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 128.87,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 128.87,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 300,
+        "worker_id": 108,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 43.54,
+                "closest_approach_time": 0.19,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 55.76,
+                "closest_approach_time": 0.22,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 2.83,
+                "closest_approach_time": 0.39,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 88.59,
+                "closest_approach_time": 0.06,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 88.59,
+            "closest_approach_time": 0.06,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 301,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 94.04,
+                "closest_approach_time": 0.7,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 74.24,
+                "closest_approach_time": 1.4,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 108.03,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 108.03,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 108.03,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 302,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 80.04,
+                "closest_approach_time": 0.16,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 77.18,
+                "closest_approach_time": 0.32,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 83.03,
+                "closest_approach_time": 0.16,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 98.83,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 98.83,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 302,
+        "worker_id": 112,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 5.69,
+                "closest_approach_time": 0.52,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 5.69,
+                "closest_approach_time": 1.04,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 5.69,
+                "closest_approach_time": 0.52,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 178.46,
+                "closest_approach_time": 0.02,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 178.46,
+            "closest_approach_time": 0.02,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 308,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 82.58,
+                "closest_approach_time": 0.64,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 55.6,
+                "closest_approach_time": 1.11,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 94.3,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 54.12,
+                "closest_approach_time": 1.88,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 94.3,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 309,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 30.07,
+                "closest_approach_time": 1.69,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 30.07,
+                "closest_approach_time": 1.69,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 92.35,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 30.07,
+                "closest_approach_time": 1.69,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 92.35,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 310,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 70.71,
+                "closest_approach_time": 1.08,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 42.43,
+                "closest_approach_time": 2.39,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 90.1,
+                "closest_approach_time": 0.25,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 19.61,
+                "closest_approach_time": 1.12,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 90.1,
+            "closest_approach_time": 0.25,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 310,
+        "worker_id": 113,
+        "forklift_id": 101,
+        "original_risk": "MEDIUM",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 90.5,
+                "closest_approach_time": 4.24,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 149.64,
+                "closest_approach_time": 5,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 36.38,
+                "closest_approach_time": 4.42,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 229.74,
+                "closest_approach_time": 0.48,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 229.74,
+            "closest_approach_time": 0.48,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 311,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 92.1,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 92.1,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 92.1,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 72.12,
+                "closest_approach_time": 1.62,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 92.1,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 312,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 10.5,
+                "closest_approach_time": 2.4,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 10.5,
+                "closest_approach_time": 2.4,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 90.61,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 10.5,
+                "closest_approach_time": 2.4,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 90.61,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 312,
+        "worker_id": 104,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 91.9,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 91.9,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 91.9,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 91.9,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 91.9,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 313,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 90.0,
+                "closest_approach_time": 0.8,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 59.59,
+                "closest_approach_time": 5,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 90.55,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 90.55,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 90.55,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 313,
+        "worker_id": 104,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 81.84,
+                "closest_approach_time": 1.46,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 81.84,
+                "closest_approach_time": 2.91,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 81.84,
+                "closest_approach_time": 1.46,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 91.4,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 91.4,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 313,
+        "worker_id": 113,
+        "forklift_id": 101,
+        "original_risk": "MEDIUM",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 37.11,
+                "closest_approach_time": 4.24,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 26.91,
+                "closest_approach_time": 3.37,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 221.65,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 89.0,
+                "closest_approach_time": 2.32,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 221.65,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 314,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 56.57,
+                "closest_approach_time": 0.96,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 50.19,
+                "closest_approach_time": 1.49,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 68.78,
+                "closest_approach_time": 1.23,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 88.36,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 88.36,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 314,
+        "worker_id": 115,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 5.3,
+                "closest_approach_time": 0.67,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 1.85,
+                "closest_approach_time": 0.78,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 26.21,
+                "closest_approach_time": 2.31,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 38.91,
+                "closest_approach_time": 0.89,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 38.91,
+            "closest_approach_time": 0.89,
+            "predicted_risk": "HIGH"
+        }
+    },
+    {
+        "frame": 314,
+        "worker_id": 104,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 35.65,
+                "closest_approach_time": 1.59,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 54.5,
+                "closest_approach_time": 2.27,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 5.96,
+                "closest_approach_time": 1.98,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 89.51,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 89.51,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 314,
+        "worker_id": 106,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 88.14,
+                "closest_approach_time": 0.19,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 90.94,
+                "closest_approach_time": 0.19,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 18.17,
+                "closest_approach_time": 2.62,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 99.44,
+                "closest_approach_time": 0.16,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 99.44,
+            "closest_approach_time": 0.16,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 315,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 89.36,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 89.36,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 89.36,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 89.36,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 89.36,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 315,
+        "worker_id": 115,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 43.17,
+                "closest_approach_time": 0.79,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 44.64,
+                "closest_approach_time": 0.74,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 102.93,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 54.42,
+                "closest_approach_time": 0.69,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 102.93,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 315,
+        "worker_id": 104,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 90.12,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 90.12,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 90.12,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 90.12,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 90.12,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 316,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 57.28,
+                "closest_approach_time": 3.84,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 35.21,
+                "closest_approach_time": 5,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 88.5,
+                "closest_approach_time": 0.6,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 88.82,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 88.82,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 317,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 89.77,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 89.77,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 89.77,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 89.77,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 89.77,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 317,
+        "worker_id": 104,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 89.82,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 89.82,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 89.82,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 89.82,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 89.82,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 318,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 90.85,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 90.85,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 90.85,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 90.72,
+                "closest_approach_time": 0.06,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 90.85,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 318,
+        "worker_id": 104,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 90.36,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 90.36,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 90.36,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 90.36,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 90.36,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 319,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 92.35,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 92.35,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 92.35,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 92.35,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 92.35,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 319,
+        "worker_id": 104,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 91.35,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 91.35,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 91.35,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 91.35,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 91.35,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 320,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 95.34,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 95.34,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 95.34,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 95.34,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 95.34,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 323,
+        "worker_id": 104,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 96.19,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 96.19,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 96.19,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 96.19,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 96.19,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 324,
+        "worker_id": 117,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 41.14,
+                "closest_approach_time": 0.17,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 43.14,
+                "closest_approach_time": 0.17,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 190.29,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 52.64,
+                "closest_approach_time": 0.16,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 190.29,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 324,
+        "worker_id": 106,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 10.82,
+                "closest_approach_time": 2.92,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 42.65,
+                "closest_approach_time": 5,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 54.45,
+                "closest_approach_time": 2.33,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 132.05,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 132.05,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 325,
+        "worker_id": 104,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 84.12,
+                "closest_approach_time": 2.13,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 89.22,
+                "closest_approach_time": 2.13,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 66.62,
+                "closest_approach_time": 5,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 94.05,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 94.05,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 326,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 31.38,
+                "closest_approach_time": 0.31,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 44.29,
+                "closest_approach_time": 0.68,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 21.21,
+                "closest_approach_time": 0.28,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 97.5,
+                "closest_approach_time": 0.02,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 97.5,
+            "closest_approach_time": 0.02,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 330,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 7.5,
+                "closest_approach_time": 0.42,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 13.31,
+                "closest_approach_time": 0.93,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 2.72,
+                "closest_approach_time": 0.38,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 105.27,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 105.27,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 331,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 7.5,
+                "closest_approach_time": 1.64,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 7.5,
+                "closest_approach_time": 4.1,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 7.5,
+                "closest_approach_time": 1.37,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 102.77,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 102.77,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 332,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 97.62,
+                "closest_approach_time": 0.17,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 100.53,
+                "closest_approach_time": 0.07,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 1.5,
+                "closest_approach_time": 2.02,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 101.01,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 101.01,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 335,
+        "worker_id": 1,
+        "forklift_id": 108,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 80.68,
+                "closest_approach_time": 0.03,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 80.12,
+                "closest_approach_time": 0.06,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 81.19,
+                "closest_approach_time": 0.03,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 103.64,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 103.64,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 339,
+        "worker_id": 117,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 23.31,
+                "closest_approach_time": 0.58,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 27.62,
+                "closest_approach_time": 0.57,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 196.12,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 37.67,
+                "closest_approach_time": 0.59,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 196.12,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 346,
+        "worker_id": 117,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 85.5,
+                "closest_approach_time": 1.31,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 69.88,
+                "closest_approach_time": 1.27,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 193.87,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 77.13,
+                "closest_approach_time": 1.02,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 193.87,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 352,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 67.04,
+                "closest_approach_time": 1.73,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 69.86,
+                "closest_approach_time": 2.41,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 60.08,
+                "closest_approach_time": 3.04,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 133.64,
+                "closest_approach_time": 0.27,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 133.64,
+            "closest_approach_time": 0.27,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 352,
+        "worker_id": 124,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 50.6,
+                "closest_approach_time": 3.56,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 65.69,
+                "closest_approach_time": 5,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 50.6,
+                "closest_approach_time": 3.56,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 149.54,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 149.54,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 353,
+        "worker_id": 124,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 32.75,
+                "closest_approach_time": 2.25,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 42.69,
+                "closest_approach_time": 2.37,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 144.93,
+                "closest_approach_time": 0.39,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 147.05,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 147.05,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 361,
+        "worker_id": 101,
+        "forklift_id": 117,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 13.7,
+                "closest_approach_time": 0.05,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 19.37,
+                "closest_approach_time": 0.05,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 38.99,
+                "closest_approach_time": 0.02,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 19.99,
+                "closest_approach_time": 0.03,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 38.99,
+            "closest_approach_time": 0.02,
+            "predicted_risk": "HIGH"
+        }
+    },
+    {
+        "frame": 362,
+        "worker_id": 101,
+        "forklift_id": 117,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 16.98,
+                "closest_approach_time": 0.06,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 18.96,
+                "closest_approach_time": 0.05,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 24.25,
+                "closest_approach_time": 0.15,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 19.41,
+                "closest_approach_time": 0.04,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 24.25,
+            "closest_approach_time": 0.15,
+            "predicted_risk": "HIGH"
+        }
+    },
+    {
+        "frame": 363,
+        "worker_id": 101,
+        "forklift_id": 117,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 29.3,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 29.3,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 29.3,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 29.3,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 29.3,
+            "closest_approach_time": 0,
+            "predicted_risk": "HIGH"
+        }
+    },
+    {
+        "frame": 364,
+        "worker_id": 101,
+        "forklift_id": 117,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 30.04,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 30.0,
+                "closest_approach_time": 0.02,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 30.04,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 30.04,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 30.04,
+            "closest_approach_time": 0,
+            "predicted_risk": "HIGH"
+        }
+    },
+    {
+        "frame": 365,
+        "worker_id": 1,
+        "forklift_id": 117,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 92.09,
+                "closest_approach_time": 1.39,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 65.55,
+                "closest_approach_time": 1.44,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 260.39,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 28.67,
+                "closest_approach_time": 1.85,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 260.39,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 365,
+        "worker_id": 101,
+        "forklift_id": 117,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 31.62,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 31.62,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 31.62,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 31.62,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 31.62,
+            "closest_approach_time": 0,
+            "predicted_risk": "HIGH"
+        }
+    },
+    {
+        "frame": 366,
+        "worker_id": 1,
+        "forklift_id": 117,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 60.55,
+                "closest_approach_time": 1.08,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 60.55,
+                "closest_approach_time": 1.08,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 251.63,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 60.55,
+                "closest_approach_time": 1.08,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 251.63,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 366,
+        "worker_id": 101,
+        "forklift_id": 117,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 33.53,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 33.53,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 33.53,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 33.53,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 33.53,
+            "closest_approach_time": 0,
+            "predicted_risk": "HIGH"
+        }
+    },
+    {
+        "frame": 369,
+        "worker_id": 1,
+        "forklift_id": 127,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 18.98,
+                "closest_approach_time": 1.03,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 18.98,
+                "closest_approach_time": 1.03,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 238.03,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 18.98,
+                "closest_approach_time": 1.03,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 238.03,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 369,
+        "worker_id": 101,
+        "forklift_id": 127,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 13.5,
+                "closest_approach_time": 0.63,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 13.5,
+                "closest_approach_time": 0.63,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 34.27,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 13.5,
+                "closest_approach_time": 0.63,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 34.27,
+            "closest_approach_time": 0,
+            "predicted_risk": "HIGH"
+        }
+    },
+    {
+        "frame": 370,
+        "worker_id": 101,
+        "forklift_id": 127,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 37.37,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 37.37,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 37.37,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 37.37,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 37.37,
+            "closest_approach_time": 0,
+            "predicted_risk": "HIGH"
+        }
+    },
+    {
+        "frame": 371,
+        "worker_id": 101,
+        "forklift_id": 127,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 37.34,
+                "closest_approach_time": 0.01,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 37.34,
+                "closest_approach_time": 0.01,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 37.34,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 37.34,
+                "closest_approach_time": 0.01,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 37.34,
+            "closest_approach_time": 0.01,
+            "predicted_risk": "HIGH"
+        }
+    },
+    {
+        "frame": 372,
+        "worker_id": 1,
+        "forklift_id": 127,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 12.7,
+                "closest_approach_time": 2.17,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 17.73,
+                "closest_approach_time": 2.29,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 173.53,
+                "closest_approach_time": 5,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 5.98,
+                "closest_approach_time": 2.55,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 173.53,
+            "closest_approach_time": 5,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 372,
+        "worker_id": 101,
+        "forklift_id": 127,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 38.46,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 38.46,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 34.5,
+                "closest_approach_time": 1.36,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 38.46,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 38.46,
+            "closest_approach_time": 0,
+            "predicted_risk": "HIGH"
+        }
+    },
+    {
+        "frame": 379,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 47.85,
+                "closest_approach_time": 0.05,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 47.65,
+                "closest_approach_time": 0.09,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 48.08,
+                "closest_approach_time": 0.05,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 139.34,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 139.34,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 380,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 92.27,
+                "closest_approach_time": 0.09,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 88.72,
+                "closest_approach_time": 0.26,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 94.23,
+                "closest_approach_time": 0.07,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 117.12,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 117.12,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 381,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 81.68,
+                "closest_approach_time": 0.21,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 63.78,
+                "closest_approach_time": 0.55,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 93.22,
+                "closest_approach_time": 0.14,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 107.76,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 107.76,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 393,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 61.85,
+                "closest_approach_time": 0.97,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 59.94,
+                "closest_approach_time": 0.82,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 220.51,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 0.29,
+                "closest_approach_time": 0.71,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 220.51,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 403,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 75.82,
+                "closest_approach_time": 0.65,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 58.29,
+                "closest_approach_time": 1.07,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 103.35,
+                "closest_approach_time": 0.78,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 180.57,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 180.57,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 403,
+        "worker_id": 128,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 54.89,
+                "closest_approach_time": 1.66,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 48.91,
+                "closest_approach_time": 3.53,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 60.21,
+                "closest_approach_time": 1.57,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 300.64,
+                "closest_approach_time": 0.23,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 300.64,
+            "closest_approach_time": 0.23,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 406,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 83.77,
+                "closest_approach_time": 0.34,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 88.0,
+                "closest_approach_time": 0.62,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 78.7,
+                "closest_approach_time": 0.38,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 212.57,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 212.57,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 424,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "MEDIUM",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 31.26,
+                "closest_approach_time": 5,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 73.37,
+                "closest_approach_time": 5,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 218.5,
+                "closest_approach_time": 2.66,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 108.06,
+                "closest_approach_time": 3.16,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 218.5,
+            "closest_approach_time": 2.66,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 429,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "MEDIUM",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 23.53,
+                "closest_approach_time": 3.67,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 1.44,
+                "closest_approach_time": 3.61,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 235.34,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 38.91,
+                "closest_approach_time": 4.15,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 235.34,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 430,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 69.0,
+                "closest_approach_time": 2.96,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 69.0,
+                "closest_approach_time": 2.96,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 232.48,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 69.0,
+                "closest_approach_time": 2.96,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 232.48,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 434,
+        "worker_id": 131,
+        "forklift_id": 138,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 2.24,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 2.24,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 2.24,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 2.24,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 2.24,
+            "closest_approach_time": 0,
+            "predicted_risk": "HIGH"
+        }
+    },
+    {
+        "frame": 435,
+        "worker_id": 131,
+        "forklift_id": 138,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 2.69,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 2.69,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 2.69,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 2.5,
+                "closest_approach_time": 0.08,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 2.69,
+            "closest_approach_time": 0,
+            "predicted_risk": "HIGH"
+        }
+    },
+    {
+        "frame": 439,
+        "worker_id": 1,
+        "forklift_id": 131,
+        "original_risk": "MEDIUM",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 79.0,
+                "closest_approach_time": 2.84,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 101.17,
+                "closest_approach_time": 3.48,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 63.19,
+                "closest_approach_time": 5,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 216.93,
+                "closest_approach_time": 1.81,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 216.93,
+            "closest_approach_time": 1.81,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 444,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 43.64,
+                "closest_approach_time": 1.24,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 51.59,
+                "closest_approach_time": 1.19,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 236.48,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 45.45,
+                "closest_approach_time": 1.09,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 236.48,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 445,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 79.49,
+                "closest_approach_time": 1.57,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 69.15,
+                "closest_approach_time": 1.53,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 231.28,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 39.02,
+                "closest_approach_time": 1.65,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 231.28,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 451,
+        "worker_id": 1,
+        "forklift_id": 131,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 77.5,
+                "closest_approach_time": 0.88,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 77.5,
+                "closest_approach_time": 0.88,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 264.6,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 77.5,
+                "closest_approach_time": 0.88,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 264.6,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 452,
+        "worker_id": 131,
+        "forklift_id": 101,
+        "original_risk": "MEDIUM",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 76.13,
+                "closest_approach_time": 2.71,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 35.37,
+                "closest_approach_time": 3.34,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 250.48,
+                "closest_approach_time": 5,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 204.21,
+                "closest_approach_time": 2.71,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 250.48,
+            "closest_approach_time": 5,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 466,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "MEDIUM",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 81.69,
+                "closest_approach_time": 5,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 69.77,
+                "closest_approach_time": 5,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 241.9,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 10.19,
+                "closest_approach_time": 4.69,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 241.9,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 467,
+        "worker_id": 1,
+        "forklift_id": 101,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 35.0,
+                "closest_approach_time": 1.31,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 35.0,
+                "closest_approach_time": 1.31,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 234.91,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 35.0,
+                "closest_approach_time": 1.31,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 234.91,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 505,
+        "worker_id": 131,
+        "forklift_id": 153,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 8.13,
+                "closest_approach_time": 0.07,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 8.13,
+                "closest_approach_time": 0.07,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 9.01,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 8.13,
+                "closest_approach_time": 0.07,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 9.01,
+            "closest_approach_time": 0,
+            "predicted_risk": "HIGH"
+        }
+    },
+    {
+        "frame": 506,
+        "worker_id": 131,
+        "forklift_id": 153,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 4.97,
+                "closest_approach_time": 0.11,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 6.04,
+                "closest_approach_time": 0.15,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 3.5,
+                "closest_approach_time": 0.13,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 7.38,
+                "closest_approach_time": 0,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 7.38,
+            "closest_approach_time": 0,
+            "predicted_risk": "HIGH"
+        }
+    },
+    {
+        "frame": 519,
+        "worker_id": 1,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 99.41,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 99.41,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 99.41,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 99.41,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 99.41,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 519,
+        "worker_id": 101,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 22.77,
+                "closest_approach_time": 5,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 22.77,
+                "closest_approach_time": 5,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 148.28,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 22.77,
+                "closest_approach_time": 5,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 148.28,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 520,
+        "worker_id": 1,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 78.7,
+                "closest_approach_time": 0.65,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 80.45,
+                "closest_approach_time": 0.97,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 75.41,
+                "closest_approach_time": 0.96,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 97.29,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 97.29,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 522,
+        "worker_id": 149,
+        "forklift_id": 131,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 1.75,
+                "closest_approach_time": 0.01,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 1.75,
+                "closest_approach_time": 0.01,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 1.79,
+                "closest_approach_time": 0.11,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 1.48,
+                "closest_approach_time": 0.01,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 1.79,
+            "closest_approach_time": 0.11,
+            "predicted_risk": "HIGH"
+        }
+    },
+    {
+        "frame": 522,
+        "worker_id": 101,
+        "forklift_id": 131,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 19.24,
+                "closest_approach_time": 0.05,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 18.75,
+                "closest_approach_time": 0.05,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 133.72,
+                "closest_approach_time": 3.07,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 17.43,
+                "closest_approach_time": 0.05,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 133.72,
+            "closest_approach_time": 3.07,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 524,
+        "worker_id": 1,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 95.02,
+                "closest_approach_time": 0.31,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 91.99,
+                "closest_approach_time": 0.49,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 100.85,
+                "closest_approach_time": 0.21,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 101.51,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 101.51,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 524,
+        "worker_id": 143,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 99.38,
+                "closest_approach_time": 1.73,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 105.25,
+                "closest_approach_time": 2.68,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 89.44,
+                "closest_approach_time": 2.38,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 160.32,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 160.32,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 530,
+        "worker_id": 1,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 68.88,
+                "closest_approach_time": 1.69,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 72.96,
+                "closest_approach_time": 1.32,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 111.21,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 48.3,
+                "closest_approach_time": 1.19,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 111.21,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 531,
+        "worker_id": 1,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 68.12,
+                "closest_approach_time": 0.21,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 66.59,
+                "closest_approach_time": 0.36,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 70.32,
+                "closest_approach_time": 0.25,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 100.55,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 100.55,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 531,
+        "worker_id": 101,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 78.04,
+                "closest_approach_time": 1.22,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 67.64,
+                "closest_approach_time": 2.33,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 89.49,
+                "closest_approach_time": 1.28,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 370.74,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 370.74,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 531,
+        "worker_id": 143,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 19.48,
+                "closest_approach_time": 0.54,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 24.1,
+                "closest_approach_time": 1.03,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 14.34,
+                "closest_approach_time": 0.58,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 161.33,
+                "closest_approach_time": 0.09,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 161.33,
+            "closest_approach_time": 0.09,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 531,
+        "worker_id": 144,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 20.26,
+                "closest_approach_time": 0.66,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 20.26,
+                "closest_approach_time": 1.32,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 20.26,
+                "closest_approach_time": 0.66,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 187.22,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 187.22,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 531,
+        "worker_id": 133,
+        "forklift_id": 155,
+        "original_risk": "MEDIUM",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 21.58,
+                "closest_approach_time": 2.64,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 44.12,
+                "closest_approach_time": 5,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 43.04,
+                "closest_approach_time": 2.62,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 740.12,
+                "closest_approach_time": 0.13,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 740.12,
+            "closest_approach_time": 0.13,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 535,
+        "worker_id": 1,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 62.3,
+                "closest_approach_time": 2.15,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 65.93,
+                "closest_approach_time": 1.81,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 105.44,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 49.64,
+                "closest_approach_time": 1.66,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 105.44,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 536,
+        "worker_id": 1,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 93.02,
+                "closest_approach_time": 0.55,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 33.05,
+                "closest_approach_time": 2.49,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 103.9,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 30.36,
+                "closest_approach_time": 0.58,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 103.9,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 537,
+        "worker_id": 1,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 18.78,
+                "closest_approach_time": 3.62,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 53.11,
+                "closest_approach_time": 2.62,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 102.8,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 45.62,
+                "closest_approach_time": 1.1,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "worker_pause",
+            "predicted_closest_distance": 102.8,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 539,
+        "worker_id": 1,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 81.69,
+                "closest_approach_time": 0.15,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 83.5,
+                "closest_approach_time": 0.27,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 79.61,
+                "closest_approach_time": 0.17,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 95.09,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 95.09,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    },
+    {
+        "frame": 539,
+        "worker_id": 143,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 1.74,
+                "closest_approach_time": 0.5,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 3.54,
+                "closest_approach_time": 0.96,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 7.48,
+                "closest_approach_time": 0.52,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 163.79,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 163.79,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 539,
+        "worker_id": 144,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 47.15,
+                "closest_approach_time": 0.54,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 48.08,
+                "closest_approach_time": 1.0,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 46.07,
+                "closest_approach_time": 0.58,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 188.47,
+                "closest_approach_time": 0,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 188.47,
+            "closest_approach_time": 0,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 539,
+        "worker_id": 147,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 95.52,
+                "closest_approach_time": 0.41,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 118.66,
+                "closest_approach_time": 0.55,
+                "predicted_risk": "LOW"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 40.67,
+                "closest_approach_time": 0.7,
+                "predicted_risk": "HIGH"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 219.69,
+                "closest_approach_time": 0.08,
+                "predicted_risk": "LOW"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "alternate_forklift_route",
+            "predicted_closest_distance": 219.69,
+            "closest_approach_time": 0.08,
+            "predicted_risk": "LOW"
+        }
+    },
+    {
+        "frame": 540,
+        "worker_id": 1,
+        "forklift_id": 155,
+        "original_risk": "HIGH",
+        "scenarios": [
+            {
+                "intervention": "baseline",
+                "predicted_closest_distance": 97.77,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "reduce_forklift_speed",
+                "predicted_closest_distance": 97.77,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "worker_pause",
+                "predicted_closest_distance": 97.77,
+                "closest_approach_time": 0,
+                "predicted_risk": "MEDIUM"
+            },
+            {
+                "intervention": "alternate_forklift_route",
+                "predicted_closest_distance": 17.03,
+                "closest_approach_time": 0.31,
+                "predicted_risk": "HIGH"
+            }
+        ],
+        "best_scenario": {
+            "intervention": "baseline",
+            "predicted_closest_distance": 97.77,
+            "closest_approach_time": 0,
+            "predicted_risk": "MEDIUM"
+        }
+    }
+]
