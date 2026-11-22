@@ -1,86 +1,59 @@
-SafeSphere – Predictive and Counterfactual Industrial Safety Intelligence
+# SafeSphere – Predictive and Counterfactual Industrial Safety Intelligence
 
-SafeSphere is a computer vision-based industrial safety project designed to analyze warehouse environments, detect workers and forklifts, estimate their movement, and identify potential collision risks.
+SafeSphere is a computer vision-based industrial safety intelligence prototype designed to detect workers and forklifts, track their movement, estimate potential collision risks, and evaluate simulated safety interventions.
 
-The system uses motion prediction and counterfactual simulations to compare possible safety interventions. A web dashboard displays the processed video, risk information, and intervention results.
+Instead of only detecting objects, SafeSphere attempts to understand how workers and industrial vehicles move relative to each other and identify potentially dangerous interactions.
 
-Key Features
+## Dashboard Preview
 
-Worker and Forklift Detection: Detects people and forklifts in warehouse video.
+![SafeSphere Dashboard](dashboard.png)
 
-Object Tracking: Tracks detected objects across video frames using ByteTrack.
+## Key Features
 
-Motion Analysis: Estimates object positions, movement, and trajectories.
+- **Object Detection:** Detects workers and forklifts from warehouse video footage.
+- **Object Tracking:** Tracks detected objects across video frames using ByteTrack.
+- **Motion Analysis:** Estimates object movement and velocity using tracked positions.
+- **Collision Risk Prediction:** Uses Time-to-Collision (TTC) and Closest Point of Approach (CPA) to estimate potential risks.
+- **Risk Classification:** Categorizes observations into HIGH, MEDIUM, and LOW risk levels.
+- **Counterfactual Intervention Engine:** Compares simulated safety scenarios to understand how different actions may affect collision risk.
+- **Interactive Dashboard:** Displays risk summaries, video analysis, and intervention comparisons.
 
-Collision Risk Prediction: Uses Time-to-Collision (TTC) and Closest Point of Approach (CPA) calculations.
+## Problem Statement
 
-Counterfactual Intervention Engine: Compares different hypothetical safety actions.
+In industrial environments such as warehouses, workers and forklifts often operate in shared spaces. A conventional CCTV system records activities but does not necessarily predict dangerous interactions before they happen.
 
-Interactive Dashboard: Displays video, risk summaries, and intervention history.
+SafeSphere explores how computer vision and motion analysis can help identify potentially unsafe worker–forklift interactions earlier.
 
-REST API: Provides dashboard data through FastAPI endpoints.
+## System Workflow
 
-Automated Testing: Includes tests for risk calculations, interventions, and API endpoints.
+1. Input warehouse video.
+2. Detect workers and forklifts.
+3. Track detected objects across frames.
+4. Estimate movement and trajectories.
+5. Calculate collision-risk indicators.
+6. Classify risk levels.
+7. Simulate alternative safety interventions.
+8. Display results through the dashboard.
 
-Counterfactual Safety Interventions
+## Technology Stack
 
-SafeSphere compares four scenarios:
+| Component | Technologies |
+|---|---|
+| Programming Language | Python |
+| Computer Vision | OpenCV |
+| Object Detection | YOLO11, YOLO-World |
+| Object Tracking | ByteTrack |
+| Backend | FastAPI |
+| Frontend | React, Vite |
+| Database | MongoDB |
+| Video Processing | OpenCV, FFmpeg |
+| Testing | Pytest |
+| Version Control | Git, GitHub |
 
-Baseline: Evaluates the situation without an intervention.
+## Project Structure
 
-Reduce Forklift Speed: Simulates reducing forklift velocity.
-
-Worker Pause: Simulates temporarily stopping worker movement.
-
-Alternate Forklift Route: Simulates changing the forklift's movement direction.
-
-These are simulated scenarios, not real-world control commands.
-
-Technology Stack
-
-Component
-
-Technologies
-
-Programming Language
-
-Python, JavaScript
-
-Computer Vision
-
-OpenCV, Ultralytics YOLO
-
-Object Tracking
-
-ByteTrack
-
-Motion and Risk Analysis
-
-NumPy, Python
-
-Backend
-
-FastAPI, Uvicorn
-
-Frontend
-
-React, Vite
-
-Icons
-
-Lucide React
-
-Testing
-
-Pytest
-
-Video Processing
-
-OpenCV, FFmpeg through imageio-ffmpeg
-
-Project Structure
-
-SafeSphereee/
+```text
+SafeSphere/
 │
 ├── backend/
 │   ├── api/
@@ -89,187 +62,184 @@ SafeSphereee/
 │   ├── prediction/
 │   ├── risk_engine/
 │   ├── intervention/
-│   ├── database/
-│   └── main.py
+│   └── database/
 │
 ├── frontend/
-│   ├── src/
-│   └── package.json
+│   └── src/
 │
 ├── datasets/
 ├── models/
 ├── videos/
-│   ├── warehouse.mp4
-│   ├── risk_output.mp4
-│   ├── risk_output_browser.mp4
-│   └── intervention_results.json
-│
 ├── tests/
-│   ├── test_risk_calculator.py
-│   ├── test_intervention_engine.py
-│   └── test_dashboard_api.py
 │
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
+```
 
-Installation and Setup
+## Risk Prediction Approach
 
-1. Clone the Repository
+SafeSphere uses motion information from tracked objects to estimate potential collision situations.
 
-git clone <your-repository-url>
-cd SafeSphereee
+### Time-to-Collision (TTC)
 
-2. Create and Activate Python Virtual Environment
+TTC estimates how much time may remain before two moving objects reach a potential collision point, based on their relative motion.
 
+### Closest Point of Approach (CPA)
+
+CPA estimates the closest predicted distance between two moving objects during the prediction period.
+
+These indicators are used by the risk engine to classify potential interactions.
+
+## Counterfactual Safety Interventions
+
+SafeSphere evaluates alternative hypothetical scenarios against a baseline scenario.
+
+The implemented scenarios include:
+
+1. **Baseline:** Original estimated movement.
+2. **Reduced Forklift Speed:** Simulates reducing forklift velocity.
+3. **Worker Pause:** Simulates the worker temporarily stopping.
+4. **Alternate Forklift Route:** Simulates changing the forklift's movement direction.
+
+The engine compares the estimated outcomes to help understand how different interventions may change predicted risk.
+
+These are simulations, not commands sent to real industrial vehicles or workers.
+
+## Demo Results
+
+The current warehouse video processing run produced the following observations:
+
+| Metric | Result |
+|---|---:|
+| Frames Processed | 541 |
+| HIGH Risk Observations | 113 |
+| MEDIUM Risk Observations | 12 |
+| LOW Risk Observations | 336 |
+| Intervention Records | 125 |
+| Scenario Comparisons | 500 |
+
+Each intervention record is evaluated across four scenarios.
+
+**Note:** These values represent outputs from the current demonstration video and implemented pipeline. They are not actual workplace accident statistics or independently validated safety measurements.
+
+## Installation and Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/kasturisinghchauhan/SafeSphere.git
+cd SafeSphere
+```
+
+### 2. Create a Virtual Environment
+
+```bash
 python -m venv .venv
+```
+
+Activate it on Windows:
+
+```powershell
 .\.venv\Scripts\Activate.ps1
+```
 
-3. Install Python Dependencies
+### 3. Install Backend Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
-4. Install Frontend Dependencies
+### 4. Start the Backend
 
-Open a terminal in the project root and run:
+From the project root directory:
 
-cd frontend
-npm install
-
-Running the Project
-
-The backend and frontend must run in separate terminals.
-
-Start Backend
-
-From the project root:
-
+```bash
 python -m uvicorn backend.main:app --reload
+```
 
 Backend URL:
 
+```text
 http://127.0.0.1:8000
+```
 
-API documentation:
+### 5. Start the Frontend
 
-http://127.0.0.1:8000/docs
+Open another terminal:
 
-Start Frontend
-
-In another terminal:
-
+```powershell
 cd frontend
+npm install
 npm run dev
+```
 
 Frontend URL:
 
-http://localhost:5173
+```text
+http://localhost:5173/
+```
 
-API Endpoints
+Open the frontend URL in your browser to access the dashboard.
 
-Endpoint
+## API Endpoints
 
-Description
+| Endpoint | Description |
+|---|---|
+| `/` | Backend root endpoint |
+| `/health` | Health check |
+| `/dashboard/summary` | Dashboard risk summary |
+| `/dashboard/interventions` | Intervention records |
+| `/dashboard/video` | Processed demonstration video |
 
-/
+The backend also provides interactive API documentation through FastAPI:
 
-Project status
+```text
+http://127.0.0.1:8000/docs
+```
 
-/health
+## Testing
 
-Backend health check
+The project includes automated backend tests using Pytest.
 
-/dashboard/summary
+Run the tests from the project root:
 
-Risk and intervention summary
-
-/dashboard/interventions
-
-Intervention records
-
-/dashboard/video
-
-Processed warehouse video
-
-Demo Results
-
-The current demonstration processed a warehouse video containing 541 frames.
-
-Metric
-
-Result
-
-Frames Processed
-
-541
-
-HIGH Risk Observations
-
-113
-
-MEDIUM Risk Observations
-
-12
-
-LOW Risk Observations
-
-336
-
-Intervention Records
-
-125
-
-Counterfactual Scenarios Compared
-
-500
-
-Note: The risk counts represent observations from the demonstration pipeline. The 125 intervention records are compared across four scenarios each, producing 500 scenario evaluations. These are not 500 separate incidents.
-
-Running Automated Tests
-
-From the project root:
-
+```bash
 python -m pytest tests -v
+```
 
-Current test result: 15 tests passed.
+**Current test result:** 15 tests passed.
 
-The test suite covers:
+## Current Limitations
 
-Risk classification and worker-forklift pair analysis.
+SafeSphere is an experimental prototype and has several limitations:
 
-Counterfactual intervention simulations.
+- Distances are currently estimated in pixels, not calibrated real-world metres.
+- Tracking IDs may occasionally fragment during object occlusion.
+- Object detection may produce false positives or miss objects.
+- Motion predictions rely on simplified movement assumptions.
+- Alternate-route simulations do not yet account for actual warehouse layouts or physical obstacles.
+- Risk predictions require further validation using diverse real-world datasets.
+- The system is not certified for industrial safety-critical use.
 
-Dashboard API responses and error handling.
+SafeSphere is intended as a research and decision-support prototype. It must not replace physical safety systems, emergency stops, safety-rated sensors, or established workplace safety procedures.
 
-Limitations
+## Future Improvements
 
-Distance calculations currently use pixels and are not calibrated to real-world metres.
+- Real-world distance calibration using camera geometry.
+- Improved worker and forklift tracking.
+- More advanced trajectory prediction.
+- Restricted-zone detection.
+- Worker posture and activity analysis.
+- Context-aware risk prediction.
+- Explainable safety alerts.
+- Evaluation on diverse real-world industrial datasets.
+- Deployment and performance optimization.
 
-Tracking IDs may become fragmented across frames.
+## Project Goal
 
-Object detection can produce false positives.
+The long-term goal of SafeSphere is to explore how predictive computer vision and counterfactual reasoning can support safer industrial environments by identifying potentially dangerous human–machine interactions before an incident occurs.
 
-Motion prediction uses simplified movement assumptions.
+---
 
-Alternate-route simulation does not account for actual warehouse layouts or physical constraints.
-
-Intervention results are hypothetical and have not been validated as operational safety recommendations.
-
-SafeSphere is a research and demonstration project. It is not a certified industrial safety system and should not replace workplace safety procedures, trained supervision, or physical safety mechanisms.
-
-Future Improvements
-
-Improve object detection and tracking reliability.
-
-Add camera calibration for real-world distance estimation.
-
-Introduce uncertainty-aware collision prediction.
-
-Add warehouse-layout-aware route planning.
-
-Evaluate the system using larger and more diverse industrial datasets.
-
-Improve intervention validation and performance evaluation.
-
-Project: SafeSphere – Predictive and Counterfactual Industrial Safety Intelligence
-
-Type: Individual Computer Vision Project
+**Developed as an individual Computer Vision and Machine Learning project.**
